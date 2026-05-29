@@ -18,6 +18,6 @@ xxxxxxx
 xxxxxxx
 xxx。
 
-$$ \eta_{ise} = \frac{\text{Actual work done by the fluid}}{\text{Maximum energy difference possible for the fluid}} \approx \frac{\dot{m} C_p (T_{0,1} - T_{0,2})}{\dot{m} C_p (T_{0,1} - T_{0,2ise})} \tag{3-57}$$
+$$ \eta_{ise} = \frac{\text{Actual work done by the fluid}}{\text{Maximum energy difference possible for the fluid}} \approx \frac{\dot{m} C_p (T_{0,1} - T_{0,2})}{\dot{m} C_p (T_{0,1} - T_{0,2ise})} $$
 
-$$ \eta_{ise} = \frac{(T_{0,1}/T_{0,2})-1}{(P_{0,1}/P_{0,2})^{(\gamma-1)/\gamma} - 1} \tag{3-58}$$
+$$ \eta_{ise} = \frac{(T_{0,1}/T_{0,2})-1}{(P_{0,1}/P_{0,2})^{(\gamma-1)/\gamma} - 1}$$
