@@ -9,10 +9,12 @@ xxxxx
 ## 3.2 研究目标
 xxxxx
 1. xxxx
-2. xxx
+2. xx
+xxxxxxx
+
 ![图3-11 涡轮组件](images/3-11.png)
 
-3. xxxxxx
+4. xxxxxx
 xxxxxxx
 xxx。
 
