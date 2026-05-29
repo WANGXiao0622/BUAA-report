@@ -12,6 +12,8 @@ xxxxx
 2. xxx
 ![图3-11 涡轮组件](images/3-11.png)
 
+3. xxxxxx
+xxxxxxx
 xxx。
 
 $$ \eta_{ise} = \frac{\text{Actual work done by the fluid}}{\text{Maximum energy difference possible for the fluid}} \approx \frac{\dot{m} C_p (T_{0,1} - T_{0,2})}{\dot{m} C_p (T_{0,1} - T_{0,2ise})} \tag{3-57}$$
