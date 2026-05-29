@@ -10,7 +10,7 @@ xxxxx
 xxxxx
 1. xxxx
 2. xxx
-![图3-13 涡轮组件](images/xxx x/xxx.png)
+![图3-11 涡轮组件](images/3-11.png)
 
 xxx。
 
