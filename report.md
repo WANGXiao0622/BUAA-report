@@ -22,15 +22,10 @@ $$ \eta_{ise} = \frac{\text{Actual work done by the fluid}}{\text{Maximum energy
 
 $$ \eta_{ise} = \frac{(T_{0,1}/T_{0,2})-1}{(P_{0,1}/P_{0,2})^{(\gamma-1)/\gamma} - 1}$$
 
+表3-19 控制器组件
 
-- ECS: 环境控制系统（Environmental Control System）
-- SBE: 基于仿真的设计（Simulation-based Engineering）
-- 某一维热流仿真平台: 通用一维热流体仿真平台/软件
-- APU: 辅助动力装置（Auxiliary Power Unit）
-- WAIS: 机翼防冰系统（Wing Anti-Ice System）
-- ACM: 空调循环机（Air Cycle Machine）
-- IAMS: 综合空气管理系统（Integrated Air Management System）
-- IASC: 综合空气系统控制器（Integrated Air System Controller）
-- LPDS: 低压配气系统（Low Pressure Distribution System）
-- FCV: 流量控制阀（Flow Control Valve）
-- TCV: 温度控制活门（Temperature Control Valve）
+| 符号 | 名称和功能 |
+|---|---|
+| ![Gauge Symbol](images/第三章 图/pack 图片.png) | **测量表 (Gauge)**：测量表组件只能接受一个从节点或组件分支获取的测量输入信号。测量的例子有压力、温度、密度、流量等。输出信号是测量表中选择的测量值。 |
+| ![Controller Template Symbol](images/第三章 图/pack 图片.png) | **控制器模板 (Controller Template)**：用于基于自定义脚本和/或绘图（二维线或三维曲面）创建自定义输出信号。该模板最多可以接受五个来自测量表或表格组件的输入信号。 |
+| ![Tabular Controller Symbol](images/第三章 图/pack 图片.png) | **表格控制器 (Tabular Controller)**：当需要一个值来计算一个不属于控制器模板的测量值时，该值将输入到表格控制器并连接到控制器模板的输入之一。表格控制器没有输入端口。 |
